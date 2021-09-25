@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<!--
+    Author:  Diya Patel
+    Class:   Software Engeering
+    Description:  Dice Roller application.
+-->
+    <head>
+        <meta charset="UTF-8">
+        <title>Two Dice Roller</title>
+        <link rel="stylesheet" href="diceroller.css">
+        <script src="diceroller.js">
+           
+        </script>
+    </head>
+
+    <!--onloading the roll function, automatically roll the dice the first time when the page is first loaded -->
+    <body onload="roll()">
+        <div class="main">
+
+            <!-- displaying two dice imagee-->
+            <img src ="1.png" width="" id="img1" class="center"  alt="img1" >
+            <img src ="1.png" width="" id="img2" class="center"  alt="img1">
+            
+            <!--adding buttion and onlick fucntion to roll ...button is also autofucued-->
+            <button id ="button" autofocus onclick="roll()">ROLL THE DICE</button>
+
+            <!--button that will show information about the game when clicked -->
+            <button onclick="message()">What is Ludo</button>
+
+        </div>
+
+    </body>
+        
+        
+          
+</html>
